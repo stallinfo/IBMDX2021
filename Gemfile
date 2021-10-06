@@ -12,6 +12,7 @@ gem 'jbuilder', '~> 2.7'
 gem 'redis', '~> 4.0'
 gem 'bootsnap', '>= 1.4.4', require: false
 gem 'devise'
+gem 'jquery-turbolinks'
 
 
 group :development, :test do
