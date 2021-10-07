@@ -12,3 +12,6 @@ import '../js/bootstrap_js_files.js'
 Rails.start()
 Turbolinks.start()
 ActiveStorage.start()
+$(document).on('turbolinks:load', function(){
+    alert("We made it!");
+})
